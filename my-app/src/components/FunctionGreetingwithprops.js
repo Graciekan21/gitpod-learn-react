@@ -1,4 +1,8 @@
+import React from "react";
 
-const FunctionalGreetingwithprops = () => <h1>Hello!</h1>;
+const FunctionalGreetingWithProps = (props) => {
+    console.log(props);
+    return <h1>Hello, {props.greeting}</h1>
+};
 
-export default FunctionalGreetingwithprops;
+export default FunctionalGreetingWithProps;
